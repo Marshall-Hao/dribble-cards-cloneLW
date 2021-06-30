@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap');
+@import url("components/card.css");
+
+:root {
+    --light-gray: rgb(229, 231, 235);
+    --medium-gray: rgb(209, 213, 219);
+    --dark-gray: rgb(156, 163, 175);
+    --indigo: rgb(165, 180, 252);
+    --light-black: rgb(75, 85, 99);
+}
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    padding: 40px 30px 30px 40px ;
+    background-color: var(--light-gray);
+}
+
