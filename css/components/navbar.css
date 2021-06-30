@@ -1,28 +1,31 @@
 .navbar {
-    /* background-color: var(--indigo); */
     background: linear-gradient(0.25turn,#e66465, #9198e5);
-    padding: 0px 20px; 
-    margin: 0px;
+    padding: 0px 40px;
+
 }
 
 .logo {
-    color: white;
-    font-size: 36px;
-    font-style:oblique;
+    color: #FFFFFF;
+    font-style: oblique;
     letter-spacing: 5px;
 }
 
 .nav-tools {
-    width: 15%;
-    color: var(--light-gray);
-    font-weight: 600;
+   color: var(--light-gray);
+   width: 15%;
+   font-weight: 700;
 }
 
 .sign-up {
     background-color: var(--indigo);
     color: var(--light-gray);
-    padding: 6px 12px;
     border-radius: 10px;
-    border: 0;
+    padding: 6px 12px;
+    opacity: 0.85;
     cursor: pointer;
+}
+
+.sign-up:hover {
+    opacity: 0.95;
+   
 }
