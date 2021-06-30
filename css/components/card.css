@@ -3,3 +3,49 @@
     --card-shadow-v-offset: 1px;
     --card-shadow-blur: 1px;
 }
+
+.cards {
+    padding: 0px 30px;
+    margin-top: 60px;
+}
+
+.card {
+    width: 310px;
+    border-radius: 3%;
+    overflow: hidden;
+}
+
+.post-pic {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 3%;
+}
+
+.author {
+    width: 33%;
+    font-weight: 700;
+}
+
+.avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.utilities {
+    width: 57%;
+    color: var(--light-black);
+    font-weight: 500;
+}
+
+.data {
+    margin-left: 1px;
+}
+
+.category {
+    background-color: var(--light-gray);
+    padding: 1px 8px;
+    border-radius: 10%;
+    font-size: 10px;
+}

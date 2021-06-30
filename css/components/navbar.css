@@ -25,4 +25,9 @@
     border-radius: 10px;
     border: 0;
     cursor: pointer;
+    opacity: 0.85;
+}
+
+.sign-up:hover {
+    opacity: 0.95;
 }
