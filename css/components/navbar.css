@@ -1,0 +1,28 @@
+.navbar {
+    /* background-color: var(--indigo); */
+    background: linear-gradient(0.25turn,#e66465, #9198e5);
+    padding: 0px 20px; 
+    margin: 0px;
+}
+
+.logo {
+    color: white;
+    font-size: 36px;
+    font-style:oblique;
+    letter-spacing: 5px;
+}
+
+.nav-tools {
+    width: 15%;
+    color: var(--light-gray);
+    font-weight: 600;
+}
+
+.sign-up {
+    background-color: var(--indigo);
+    color: var(--light-gray);
+    padding: 6px 12px;
+    border-radius: 10px;
+    border: 0;
+    cursor: pointer;
+}
